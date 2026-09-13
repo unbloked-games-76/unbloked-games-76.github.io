@@ -1,16 +1,23 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta name="description" content="Browse the games library, search by name, and launch games in a clean player with tips and controls."><title>Quiz 35 | Games Library</title>
-    <link rel="icon" type="image/png" href="./Assests/Imgs/Logo.png">
-    <link rel="stylesheet" type="text/css" href="./Assests/CSS/main.css">
-    <link rel="stylesheet" type="text/css" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-</head>
-<body class="default">
-<div id="preroll"></div>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Unblocked Games 76 — Play 450+ Free Browser Games</title>
+<meta content="Play Unblocked Games 76 with 450+ browser games. Explore action, racing, sports, puzzle, strategy and casual games with guides, search and favorites." name="description"/>
+<link href="https://unbloked-games-76.github.io/" rel="canonical"/>
+<meta content="Unblocked Games 76 — 450 Free Online Games" property="og:title"/>
+<meta content="Play Unblocked Games 76 and hundreds of free browser games with no download." property="og:description"/>
+<meta content="https://unbloked-games-76.github.io/" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="#080b14" name="theme-color"/>
+<link href="assets/logo.svg" rel="icon" type="image/svg+xml"/>
+<link href="assets/style.css" rel="stylesheet"/><link href="assets/nav.css" rel="stylesheet"/>
+<link href="assets/home.css" rel="stylesheet"/>
+<link href="assets/ads.css" rel="stylesheet"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "Unblocked Games 76", "url": "https://unbloked-games-76.github.io/", "description": "A curated catalog of 450+ browser games with search, categories, favorites and original game guides."}, {"@type": "Organization", "name": "Unblocked Games 76", "url": "https://unbloked-games-76.github.io/"}]}</script></head>
+<body><div id="preroll"></div>
 <script>
 	function getScript(src) {
     var headElm = document.head || document.getElementsByTagName('head')[0];
@@ -31,7 +38,7 @@
 }
 
  
-	getScript("https://api.adinplay.com/libs/aiptag/pub/MNS/agario.cafe/tag.min.js");
+	getScript("https://api.adinplay.com/libs/aiptag/pub/HFZ/fine-arts.lol/tag.min.js");
  
 	window.aiptag = window.aiptag || {cmd: []};
 	aiptag.cmd.display = aiptag.cmd.display || [];
@@ -40,142 +47,92 @@
 	//CMP tool settings
 	aiptag.cmp = {
 		show: true,
-		position: "centered",  //centered, bottom
+		position: "centered",
 		button: true,
 		buttonText: "Privacy settings",
-		buttonPosition: "bottom-left" //bottom-left, bottom-right, top-left, top-right
+		buttonPosition: "bottom-left"
 	}
 
 	aiptag.cmd.player.push(function() {
 		aiptag.adplayer = new aipPlayer({
 			AD_WIDTH: 960,
 			AD_HEIGHT: 540,
-			AD_DISPLAY: 'center', //default, fullscreen, center, fill
+			AD_DISPLAY: 'center',
 			LOADING_TEXT: 'loading advertisement',
 			PREROLL_ELEM: function(){return document.getElementById('preroll')},
-			AIP_COMPLETE: function (evt){
-				
-   //skip_play();
- 			},
-			AIP_REMOVE: function ()  {
-				// Here it's safe to remove the PREROLL_ELEM from the page if you want. But it's not recommend.
-			}
+			AIP_COMPLETE: function (evt){ try{ if(window.__pr_cb){ window.__pr_cb(); } }catch(e){} finally{ window.__pr_cb=null; } },
+			AIP_REMOVE: function ()  {}
 		});
 	});
-	
-	 
- 
-				function show_preroll() {
- 					if (typeof aiptag.adplayer !== 'undefined') {
-				 	aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
-					} else {
-				    	
-   //skip_play();
- 
-					}
-				}
-	
+
+	function show_preroll(callback) {
+		window.__pr_cb = (typeof callback === 'function') ? callback : null;
+		if (typeof aiptag.adplayer !== 'undefined') {
+			aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
+		} else {
+			if (window.__pr_cb) { var cb = window.__pr_cb; window.__pr_cb = null; cb(); }
+		}
+	}
 </script>
-    <nav class="Navigation hideAfterFullscreen">
-        <div class="Navigation-Container">
-            <a class="Navigation-Image" href="./"><img src="./Assests/Imgs/Logo.png"></img></a>
-            <ul>
-                <li class="Navigation-Button"><a href="./"><i class="las la-home"></i><p>Home</p></a></li>
-                <li class="Navigation-Button"><a href="./g.html"><i class="las la-gamepad"></i><p>About</p></a></li>
-                <li class="Navigation-Button"><a href="./e.html"><i class="las la-hourglass-half"></i><p>Emulator</p></a></li>
-                <li class="Navigation-Button"><a href="./settings.html"><i class="las la-cog"></i><p>Settings</p></a></li>
-            <ul>
-        </div>
-    </nav>
-    
-    <div class="Projects-Frame hidden">
-        <div class="Projects-FrameBar">
-            <i id="close" class="las la-times-circle"></i>
-            <i id="fullscreen" class="las la-expand"></i>
-            <i id="link" class="las la-link"></i>
-        </div>
-        <iframe class="Projects-IFrame" src=""></iframe>
-    </div>
-
-   
-     <div class="hideAfterFullscreen">
-        <center>
-            <h1 style="margin-top: 25px; color: var(--text-color1)">quiz-35</h1>
-       <br>
-		 <div id='agario-cafe_970x250'>
-			<script type='text/javascript'>
-			aiptag.cmd.display.push(function() { aipDisplayTag.display('agario-cafe_970x250'); });
-			</script>
-         </div>		 </center>
-		 
-        <hr>
-        <center style="padding: 2em 0 0 0">
-
-            <input type="text" class="Settings-TextInput" id="GameSearchBar" placeholder="Search For Project">
-        </center>
-    </div>
-
-    <div class="Projects-Container hideAfterFullscreen">
-        </div>
-    <section class="hideAfterFullscreen" style="max-width: 980px; margin: 32px auto 0; padding: 0 16px; color: var(--text-color2); line-height: 1.7;">
-        <h2 style="color: var(--text-color1); margin-bottom: 10px;">How to use the library</h2>
-        <p>Use the search box to filter games by name. Click a game tile to open it in the player above. You can use the fullscreen button for an immersive view.</p>
-        <p><b>Tip:</b> If a game does not load, it may be temporarily unavailable from the content source. Try another game or check back later.</p>
-		  <h2>A World of Games, One Click Away</h2>
-
-  <p>
-    Welcome to a place where <strong>every type of game</strong> finds its moment. This page isn’t built around a
-    single genre—it’s a curated mix of styles, speeds, and challenges designed for players who like variety.
-    From fast-paced action to relaxing casual titles, these browser-based games deliver instant fun with zero
-    barriers. No installs, no sign-ups, just pure gameplay.
-  </p>
-
-  <p>
-    Love quick reflex tests? High-speed games like <strong>Slope</strong> and <strong>Run 3</strong> push your
-    timing and focus to the limit. Prefer strategy and sports? Titles such as <strong>Retro Bowl</strong> and
-    <strong>Basketball Stars</strong> combine simple controls with deep, replayable mechanics. If competition is
-    your thing, multiplayer experiences like <strong>1v1.LOL</strong> let you jump straight into skill-based
-    battles against real players.
-  </p>
-
-  <p>
-    This page is made for explorers. One moment you’re dodging obstacles at full speed, the next you’re building,
-    planning, or outsmarting opponents. Each game brings a different mood, ensuring that boredom never has a chance
-    to settle in. Thanks to lightweight design and fast loading times, even short breaks turn into satisfying
-    gaming sessions.
-  </p>
-
-  <p>
-    Whether you’re here to compete, relax, or discover something new, this collection proves one thing:
-    <strong>great games don’t need limits</strong>. Scroll, choose your style, and let every click open the door
-    to a new experience.
-  </p>
-    </section>
-    <footer style="margin-top: 48px; padding: 24px 16px; text-align:center;" class="hideAfterFullscreen">
-        <p style="color: var(--text-color2); margin-bottom: 10px;">© 2025 Quiz 35. All rights reserved.</p>
-        <p style="color: var(--text-color2);">
-            <a href="./privacy-policy.html">Privacy Policy</a> ·
-            <a href="./terms.html">Terms</a> ·
-            <a href="./contact.html">Contact</a> ·
-            <a href="./about.html">About</a>
-        </p>
-    </footer>
-
-
-
-
-
-    <script src="./Assests/JS/aboutblank.js"></script>
-    <script src="./Assests/JS/options.js"></script>
-    <script src="./Assests/JS/g.js?sssdsv1f"></script>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WF187HFP3N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WF187HFP3N');
-</script>
+<header class="site-header">
+<a class="brand" href="/"><img alt="Unblocked Games 76" src="assets/logo.svg"/><span>Unblocked Games 76</span></a>
+<nav aria-label="Main navigation" class="main-nav"><a aria-current="page" class="active" href="/">Home</a><a href="/#games">Games</a><a href="popular-games.html">Popular</a><a href="top-unblocked-games.html">Top Unblocked</a><a href="new-games.html">New</a><a href="favorite-games.html">Favorites</a><div class="nav-dropdown"><button type="button">Categories ▾</button><div class="dropdown-menu"><a href="action-games.html">Action &amp; Adventure</a><a href="strategy-games.html">Strategy &amp; Puzzle</a><a href="casual-games.html">Casual &amp; Idle</a><a href="driving-games.html">Driving &amp; Sports</a></div></div><div class="nav-dropdown"><button type="button">Information ▾</button><div class="dropdown-menu"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="dmca.html">DMCA</a></div></div></nav>
+</header>
+<main>
+<section class="hero">
+<h1 class="visually-hidden">Unblocked Games 76 — Play Free Browser Games</h1>
+<div class="search-row">
+<label class="search"><span>⌕</span><input autocomplete="off" id="search" placeholder="Search 450 games…" type="search"/></label>
+<button class="primary" id="random">Surprise me</button>
+</div><div class="ad-slot-center">
+<div class="ad-placeholder" id="fine-arts-lol_970x250">
+<script type="text/javascript">
+      aiptag.cmd.display.push(function() { aipDisplayTag.display('fine-arts-lol_970x250'); });
+    </script>
+</div>
+</div>
+</section>
+<section class="saved-section home-showcase" id="popular"><div class="section-head"><div><h2>Popular Games</h2></div><a class="section-link" href="popular-games.html">View popular games →</a></div><div class="game-grid" id="popularGrid"></div></section><section class="home-ai-between"><section aria-labelledby="aiFinderTitle" class="ai-finder">
+<div class="ai-finder-copy">
+<span class="kicker">AI Game Finder</span>
+<h2 id="aiFinderTitle">Most Searched Unblocked Games</h2>
+<p>Search the most popular unblocked games, including Slope, 1v1.LOL, Retro Bowl, Run 3, Tunnel Rush and Moto X3M.</p>
+</div>
+<div class="ai-finder-form">
+<div class="ai-input-row">
+<input aria-label="Describe the game you want" autocomplete="off" id="aiPrompt" placeholder="What kind of game do you want?" type="text"/>
+<button class="primary" id="aiFind" type="button">Find games ✨</button>
+</div>
+<div aria-label="Popular unblocked game searches" class="ai-suggestions">
+<button data-ai-example="Slope Unblocked" type="button">Slope Unblocked</button>
+<button data-ai-example="1v1.LOL Unblocked" type="button">1v1.LOL Unblocked</button>
+<button data-ai-example="Retro Bowl Unblocked" type="button">Retro Bowl Unblocked</button>
+<button data-ai-example="Run 3 Space Unblocked" type="button">Run 3 Unblocked</button>
+<button data-ai-example="Tunnel Rush Unblocked" type="button">Tunnel Rush Unblocked</button>
+<button data-ai-example="Moto X3M Unblocked" type="button">Moto X3M Unblocked</button>
+<button data-ai-example="Subway Surfers Unblocked" type="button">Subway Surfers Unblocked</button>
+<button data-ai-example="Minecraft Classic Unblocked" type="button">Minecraft Classic Unblocked</button>
+</div>
+<div aria-live="polite" class="ai-status" id="aiStatus"></div>
+<div class="game-grid ai-results" hidden="" id="aiResults"></div>
+</div>
+</section></section>
+<section class="catalog" id="games">
+<div class="section-head"><div><h2>All games</h2></div><span class="result-count" id="resultCount"></span></div>
+<div class="controls">
+<div aria-label="Game categories" class="chips" id="categories"></div>
+<select aria-label="Sort games" id="sort"><option value="name">A–Z</option><option value="popular">Most popular</option><option value="newest">Newest</option></select>
+</div>
+<div aria-live="polite" class="game-grid" id="gameGrid"></div>
+<div class="empty" hidden="" id="empty"><strong>No games found</strong><span>Try another name or category.</span></div>
+<button class="load-more" id="loadMore">Load more games</button>
+</section>
+<section class="saved-section home-showcase" hidden="" id="favorites"><div class="section-head"><div><span class="kicker">Your list</span><h2>Favorite Games</h2></div><a class="section-link" href="favorite-games.html">View favorites →</a></div><div class="game-grid" id="favoriteGrid"></div></section>
+<section class="saved-section" hidden="" id="recent"><div class="section-head"><div><span class="kicker">Jump back in</span><h2>Recently Played</h2></div></div><div class="game-grid compact" id="recentGrid"></div></section>
+<section class="about" id="about"><span class="kicker">Built for browser-game discovery</span><h2>Unblocked Games 76: 450+ games, one fast catalog</h2><p>Unblocked Games 76 is a curated destination for discovering browser games without digging through cluttered directories. Search the full catalog, browse focused categories, save favorites, revisit recently played titles and open original game guides written to explain controls, strategy and core gameplay.</p></section>
+<section aria-labelledby="home-seo-title" class="home-seo"><span class="kicker">Unblocked Games 76 guide</span><h2 id="home-seo-title">Explore Unblocked Games 76 from A–Z</h2><p><strong>Unblocked Games 76</strong> brings more than 450 browser games into a single organized catalog. Whether you want fast action, car games, sports, puzzle challenges, strategy, idle games or classic arcade-style titles, the site is designed to help you find a game quickly and understand what you are about to play.</p><div class="home-seo-grid"><div><h3>Popular games and hidden picks</h3><p>Start with well-known titles such as Slope, 1v1.LOL, Retro Bowl, Run 3, Tunnel Rush, Moto X3M, Subway Surfers and Minecraft Classic, then move into the full catalog to find lesser-known games. Popular, New and Top Unblocked sections give you different ways to browse the library.</p></div><div><h3>Search, categories and smart discovery</h3><p>Use instant search when you know a title, category pages when you know the style of game you want, or the AI Game Finder when you would rather describe the kind of experience you are looking for. Favorites and recent games are stored locally in your browser.</p></div></div><h3>Original guides for every game</h3><p>Every title has its own page with a rewritten overview, controls, practical strategy ideas, game details and FAQs. This keeps each page useful beyond the player itself and gives you a quick reference when a game has unfamiliar mechanics.</p><h3>Browser-first design</h3><p>The site is built as a lightweight static project for modern desktop, Chromebook, tablet and mobile browsers. Individual game availability can still depend on the upstream game provider, browser support and network rules. Unblocked Games 76 does not claim to bypass administrator-controlled restrictions.</p><div class="home-faq"><h3>Unblocked Games 76 FAQ</h3><h4>What is Unblocked Games 76?</h4><p>It is a curated browser-game catalog with hundreds of titles, categories, search tools, favorites and original game guides.</p><h4>Do games require installation?</h4><p>The catalog focuses on browser-based versions, so a separate app installation is generally not required.</p><h4>How can I find a specific title?</h4><p>Use the homepage search, browse categories, open Popular or New, or move through the catalog alphabetically.</p><h4>Will every game work on every network?</h4><p>No. Availability depends on the upstream provider, device, browser and network policy.</p></div></section>
+</main>
+<footer><p class="footer-seo-copy">Play Unblocked Games 76 and discover hundreds of action, puzzle, sports, racing and casual browser games.</p><a class="brand" href="/"><img alt="" src="assets/logo.svg"/><span>Unblocked Games 76</span></a><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="dmca.html">DMCA</a></div><p><a href="LICENSE.txt">Open-source notice</a></p></footer>
+<script defer="" src="assets/app.js"></script><script defer="" src="assets/ai-config.js"></script><script defer="" src="assets/ai-finder.js"></script>
 </body>
 </html>
